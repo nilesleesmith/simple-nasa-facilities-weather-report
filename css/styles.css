@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    overflow: hidden;
+    background: aliceblue;
+}
+
+header,
+footer {
+    flex-shrink: 0;
+    padding: 1rem;
+    background: midnightblue;
+    color: white;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+section {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: white;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+h1 {
+    font-size: 1.75rem;
+}
+
+h2 {
+    padding-bottom: 1rem;
+}
+
+button {
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+    border-radius: 4px;
+    background: midnightblue;
+    color: white;
+}
+
+button:hover {
+    border: 3px solid black;
+}
+
+#nowDateTime {
+    font-weight: bold;
+}
+
+#facilityNamesAndWeather section {
+    padding-bottom: 1rem;
+}
+
+#facilityNamesAndWeather h3 {
+    padding-bottom: 1rem;
+}
+
+#facilityNamesAndWeather div {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid lightgray;
+}
+
+#facilityNamesAndWeather span:first-child {
+    font-weight: bold;
+}
+
+footer {
+    font-size: 1rem;
+}
