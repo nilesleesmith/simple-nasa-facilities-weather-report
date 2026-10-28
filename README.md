@@ -52,18 +52,8 @@ No additional packages or build steps are required.
 
 ## Live Site
 
-Coming soon.
+https://nilesleesmith.github.io/simple-nasa-facilities-weather-report/
 
 ## Screenshots
 
-### Desktop
-
 ![NASA Facilities and Weather desktop view](./screenshots/simple-nasa-facilities-weather-report-desktop.png)
-
-### Tablet
-
-![NASA Facilities and Weather tablet view](./screenshots/simple-nasa-facilities-weather-report-tablet.png)
-
-### Mobile
-
-![NASA Facilities and Weather mobile view](./screenshots/simple-nasa-facilities-weather-report-mobile.png)
